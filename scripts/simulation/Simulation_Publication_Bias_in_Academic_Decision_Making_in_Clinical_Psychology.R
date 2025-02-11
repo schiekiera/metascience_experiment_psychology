@@ -8,6 +8,7 @@ library(report)
 library(faux)
 library(effectsize)
 library(misty)
+# do not load lmerTest, since it is not compatible with mediation package
 
 # Simulate data
 set.seed(2023)  # For reproducibility
