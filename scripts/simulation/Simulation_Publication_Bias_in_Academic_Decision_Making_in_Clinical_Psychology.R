@@ -8,6 +8,8 @@ library(report)
 library(faux)
 library(effectsize)
 library(misty)
+library(tidyverse)
+
 # do not load lmerTest, since it is not compatible with mediation package
 
 # Simulate data
@@ -329,3 +331,9 @@ model_X.2.2 <- mediation::mediate(model_X.2.2_med, model_X.2.2_out,
                                   treat = "treatment", mediator = "FOR", 
                                   sims = 1000)
 summary(model_X.2.2)
+
+#######################
+## plot the results  ##
+#######################
+plot(model_X.2.1)
+plot(model_X.2.2)
