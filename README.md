@@ -1,5 +1,4 @@
-# Metascience experiment history
-
+# Metascience experiment psychology
 This repository contains anonymized data for a metascientific experiment on the influence of publication bias on psychologists' assessments of clinical psychology abstracts. The scripts are prepared so that the data will be directly loaded from the GitHub repository link without downloading the data manually. All main hypotheses are fully reproducible. Since parts of the data for the exploratory analysis are anonymized because they are sensitive (e.g. age, gender, conscientiousness).
 
 ## Abstract
