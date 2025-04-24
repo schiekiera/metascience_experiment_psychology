@@ -1,5 +1,9 @@
-# Metascience experiment psychology
-This repository contains anonymized data for a metascientific experiment on the influence of publication bias on psychologists' assessments of clinical psychology abstracts. The scripts are prepared so that the data will be directly loaded from the GitHub repository link without downloading the data manually. All main hypotheses are fully reproducible. Parts of the data for the exploratory analysis are anonymized because they contain sensitive information (e.g., age, gender, conscientiousness).
+# Publication bias in psychology
+## Overview
+This repository contains anonymized data for a metascientific experiment on the influence of publication bias on psychologists' assessments of clinical psychology abstracts. The corresponding paper has been accepted as a pre-data collection Stage 1 registered report in [Advances in Methods and Practices in Psychological Science](https://journals.sagepub.com/home/amp).
+
+## How to use the data
+The scripts are prepared so that the data will be directly loaded from the GitHub repository link without downloading the data manually. All main hypotheses are fully reproducible. Parts of the data for the exploratory analysis are anonymized because they contain sensitive information (e.g., age, gender, conscientiousness).
 
 ## Abstract
 ### Background: 
@@ -10,3 +14,4 @@ In each of four online experiments (each n = 75), 16 fictitious research paper a
 Researchers rated statistically non-significant abstracts as less likely to be submitted, read, or cited compared to significant ones. No such bias was found for hypothesis-inconsistent results. In most cases, initial intuitive evaluations were not substantially revised after deliberation. However, hypothesis-inconsistent results slightly increased reading likelihood upon reconsideration, and FOR mediated the effect of statistical significance on submission decisions—unexpectedly amplifying, rather than correcting, the bias.
 ### Conclusion:
 The findings suggest a persistent bias against statistically non-significant results in researchers’ publication, citation and reception decisions, while hypothesis-consistency does not seem to affect the decisions. Contrary to Dual Process Theory predictions, deliberation did not reduce bias, and uncertainty (low FOR) was mostly not associated with observed likelihoods upon reconsideration regarding publication, citation and reception. Together, these findings point to persistent publication and reception biases with respect to significant results at the level of individual researchers. This affects cumulative knowledge building and the reproducibility of research. 
+
