@@ -248,35 +248,57 @@ results_4B_random_intercept <- extract_model_stats_random_intercept_model(
 )
 
 
-## qq plots
-# QQ plot for model_1.1
-#png(paste0(plot_path,"qqplot_model_1.1.png"), width = 1000, height = 1000, res = 300)
-qqnorm(resid(model_1.1),main="Model 1.1")
+
+# Set up file paths
+png_file <- paste0(plot_path, "figureC1.png")
+tiff_file <- paste0(plot_path, "figureC1.tiff")
+
+# --- Save as PNG ---
+#png(png_file, width = 1000, height = 1500, res = 300)
+#par(mfrow = c(3, 2))  # 3 rows, 2 columns
+
+qqnorm(resid(model_1.1), main = "Model 1.1")
+qqline(resid(model_1.1))
+
+qqnorm(resid(model_2.1), main = "Model 2.1")
+qqline(resid(model_2.1))
+
+qqnorm(resid(model_3A.1), main = "Model 3A.1")
+qqline(resid(model_3A.1))
+
+qqnorm(resid(model_3B.1), main = "Model 3B.1")
+qqline(resid(model_3B.1))
+
+qqnorm(resid(model_4A.1), main = "Model 4A.1")
+qqline(resid(model_4A.1))
+
+qqnorm(resid(model_4B_random_intercept), main = "Model 4B.1")
+qqline(resid(model_4B_random_intercept))
+
 #dev.off()
 
-# QQ plot for model_2.1
-#png(paste0(plot_path,"qqplot_model_2.1.png"), width = 1000, height = 1000, res = 300)
-qqnorm(resid(model_2.1),main="Model 2.1")
-#dev.off()
+# --- Save as TIFF ---
+#tiff(tiff_file, width = 1000, height = 1500, res = 300)
+#par(mfrow = c(3, 2))  # 3 rows, 2 columns
 
-# QQ plot for model_3A.1
-#png(paste0(plot_path,"qqplot_model_3A.1.png"), width = 1000, height = 1000, res = 300)
-qqnorm(resid(model_3A.1),main="Model 3A.1")
-#dev.off()
+qqnorm(resid(model_1.1), main = "Model 1.1")
+qqline(resid(model_1.1))
 
-# QQ plot for model_3B.1
-#png(paste0(plot_path,"qqplot_model_3B.1.png"), width = 1000, height = 1000, res = 300)
-qqnorm(resid(model_3B.1),main="Model 3B.1")
-#dev.off()
+qqnorm(resid(model_2.1), main = "Model 2.1")
+qqline(resid(model_2.1))
 
-# QQ plot for model_4A.1
-#png(paste0(plot_path,"qqplot_model_4A.1.png"), width = 1000, height = 1000, res = 300)
-qqnorm(resid(model_4A.1),main="Model 4A.1")
-#dev.off()
+qqnorm(resid(model_3A.1), main = "Model 3A.1")
+qqline(resid(model_3A.1))
 
-# QQ plot for model_4B_random_intercept
-#png(paste0(plot_path,"qqplot_model_4B.1.png"), width = 1000, height = 1000, res = 300)
-qqnorm(resid(model_4B_random_intercept),main="Model 4B.1")
+qqnorm(resid(model_3B.1), main = "Model 3B.1")
+qqline(resid(model_3B.1))
+
+qqnorm(resid(model_4A.1), main = "Model 4A.1")
+qqline(resid(model_4A.1))
+
+qqnorm(resid(model_4B_random_intercept), main = "Model 4B.1")
+qqline(resid(model_4B_random_intercept))
+
 #dev.off()
 
 
