@@ -14,3 +14,6 @@ Across four online experiments, clinical psychology researchers (n = 303) evalua
 Researchers rated statistically non-significant abstracts as less likely to be submitted‚ read, or cited compared to significant ones. No such bias was found for hypothesis-inconsistent results. In most cases, initial intuitive evaluations were not revised after deliberation and FOR did not predict decision changes.
 ### Conclusion:
 The findings suggest a persistent bias against statistically non-significant results in researchers’ publication, citation and reception decisions, while hypothesis-consistency does not seem to affect the decisions. Contrary to expectations, deliberation and FOR played minor roles in explaining publication, citation and reception decisions. 
+
+### Keywords
+file drawer, null hypothesis, publication bias, decision making, heuristics, preferences, meta-science, positive results
